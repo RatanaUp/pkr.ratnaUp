@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+  <style>
+  /* តំបន់ខ្លឹមសារ */
+  body {
+    height: 2000px;
+    background: linear-gradient(white, lightgray);
+  }
+
+  /* តំណទៅលើ */
+  a.arrow-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: transform 0.2s, opacity 0.3s;
+    text-decoration: none;
+  }
+
+  a.arrow-up::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+
+  a.arrow-up:hover {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+
+  /* ចំណុចផ្តើម (scroll target) */
+  #top {
+    position: absolute;
+    top: 0;
+  }
+</style>
+<body>
+  <div id="top"></div>
+<!-- ព្រួញឡើង -->
+<a href="#top" class="arrow-up"></a>
+
+<div class="full">
+         <!-- top -->
+          
+        <div class="menu">
+        <!-- logo -->
+        <div class="logo">
+          <img src="p/_logo.png">
+          <h1>PKR</h1>
+        </div> 
+        <div class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ticket.html">TICKET</a></li>
+                    <li><a href="souvenir.html">SOUVENIR</a></li>
+                    <li><a href="drink.html">DRINK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="indexKh.html"><img src="p/tran.png"></a></li>
+                   
+                    
+                </ul>
+              </div>
+          
+        
+        </div>
+        <br><br><br><br>
+        <hr>
+        <h1>Hello! There,</h1>
+        <hr><br>
+        <!-- cover -->
+        
+        <!-- contect -->
+        <div class="box-contece">
+         
+          <div class="five">
+      <div class="big">
+        <div class="image-section">
+          <div class="slider">
+            <img src="p/1.jpg" alt="" />
+            <br>
+          </div></div>
+        <div class="text-section">
+          <h1>Welcome To The official PKR App</h1>
+          <p>Register in advance to order according to your needs.</p>
+          <button>Register in</button>
+        </div>
+
+        
+        
+      </div>
+    </div>
+
+        </div> <br><br>    
+        <!-- contact -->
+          <hr>
+        <h1>Contace Us</h1>
+        <hr><br><br><br>
+        <div class="contace">
+          <div class="contace2">
+            <div class="photo">
+              <img src="p/ppp.jpg">
+            </div>
+            <div class="about">
+              <h1>About us</h1><hr>
+              <p>Welcome to the official app of Preah Khan Reach Svay Rieng Club.</p>
+              <br>
+              <p>Any problems with ordering can contact us and we will resolve it as quickly as possible.</p>
+            </div>
+          </div>
+          <div class="contact">
+            <h1>Contace Information</h1><hr>
+            <a href="https://www.facebook.com/na.721681?mibextid=wwXIfr&mibextid=wwXIfr"><img src="p/facebook.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href="https://www.instagram.com/firmina1818?igsh=cm94YXhybzcwdm42&utm_source=qr"><img src="p/instagram.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href="https://t.me/ratanacheang"><img src="p/telegram.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href=""><img src="p/phone.png">+855 &nbsp;&nbsp;89&nbsp;&nbsp;788&nbsp;&nbsp;984</a><hr>
+            <a href="https://maps.app.goo.gl/891KtuGSe3R7FHrh6?g_st=ipc"><img src="p/map (2).png">Khan Russey Keo, Phnom Penh</a><hr>
+            
+          </div>
+        </div><br><br><br><br><br><br>
+         
+         <br>
+         <!-- footer -->
+          
+        <div class="footer">
+          <div class="y">
+            <p> <b>About Us</b></p>
+            <h1>Quick Problem Solving</h1>
+            <h1>Fast Response</h1>
+            <h1>@OfiicialAPPofPKR</h1>
+          </div>
+          <div class="y">
+            <p><b>Products</b></p>
+            <h1>ticket</h1>
+            <h1>Souvenirs</h1>
+            <h1>Drink</h1>
+          </div>
+          <div class="y">
+            <p><b>Customer Service</b></p>
+            <h1>Contact Us</h1>
+            <h1>Shipping Information</h1>
+            <h1>Return</h1>
+          </div>
+          <div class="y">
+            <p><b>Follow Us</b></p>
+            <h1>Facebook:  Cheang Ratana</h1>
+            <h1>Email:  pkr008@gmail.com</h1>
+            <h1>Telegram: 089788984</h1>
+          </div>
+
+          <div class="a2"> <hr><h1>© PKr2025.All Rights reserved</h1></div>
+
+        </div>
+        
+          
+        
+       
+        
+
+
+
+</div>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

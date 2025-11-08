@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+  <style>
+  /* តំបន់ខ្លឹមសារ */
+  body {
+    height: 2000px;
+    background: linear-gradient(white, lightgray);
+  }
+
+  /* តំណទៅលើ */
+  a.arrow-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: transform 0.2s, opacity 0.3s;
+    text-decoration: none;
+  }
+
+  a.arrow-up::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+  }
+
+  a.arrow-up:hover {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+
+  /* ចំណុចផ្តើម (scroll target) */
+  #top {
+    position: absolute;
+    top: 0;
+  }
+</style>
+<body>
+  <div id="top"></div>
+<!-- ព្រួញឡើង -->
+<a href="#top" class="arrow-up"></a>
+
+<div class="full">
+         <!-- top -->
+          
+        <div class="menu">
+        <!-- logo -->
+        <div class="logo">
+          <img src="p/_logo.png">
+          <h1>PKR</h1>
+        </div> 
+        <div class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ticket.html">TICKET</a></li>
+                    <li><a href="souvenir.html">SOUVENIR</a></li>
+                    <li><a href="drink.html">DRINK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="indexKh.html"><img src="p/tran.png"></a></li>
+                   
+                    
+                </ul>
+              </div>
+          
+        
+        </div>
+        <br><br><br><br><br>
+        <hr>
+        <h1>Hello! There,</h1>
+        <hr>
+        <!-- cover -->
+        
+        <!-- contect -->
+        <div class="box-contece">
+         
+          <div class="five">
+      <div class="big">
+        <div class="image-section">
+          <div class="slider">
+            <img src="p/1.jpg" alt="" />
+            <br>
+          </div></div>
+        <div class="text-section">
+          <h1>Welcome To The official PKR App</h1>
+          <p>Register in advance to order according to your needs.</p>
+          <button>Register in</button>
+        </div>
+
+        
+        
+      </div>
+    </div>
+
+        </div>
+        <br><br><hr>
+        <div class="pro">
+          <a href="#a"><button>Ticket</button></a>
+         <a href="#b"><button>SOUVENIR</button></a>
+          <a href="#c"><button>Drink</button></a>
+        </div>
+        <hr>
+         <!-- match -->
+         <h1><a name="a">Upcoming Match</a></h1><hr><br>
+        <div class="na">
+          
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>19/10/2025</h1>
+                  <h2>Cambodian Premier League</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/tiffy.png" width="53px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-18:00</h1></div>
+                <div class="coming">
+                  <div class="e"><a href="ticket.html"><h2>BUY TICKET</h2></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>25/10/2025</h1>
+                  <h2>AFC Challenge league</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/sp facons.png"width="63px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-14:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>29/10/2025</h1>
+                  <h2>AFC Challenge league</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/ezra.jpg" width="40px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-19:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>01/11/2025</h1>
+                  <h2>AFC Challenge league</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/mannila.png" width="40px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-19:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>09/11/2025</h1>
+                  <h2>Cambodian Premier League</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/kirivong.jpg" width="50px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-18:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>19/11/2025</h1>
+                  <h2>Cambodian Premier League</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/isi.png" width="55px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-18:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                  <h1>23/11/2025</h1>
+                  <h2>Cambodian Premier League</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/naga.jpg" width="45px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-18:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="match">
+              <div class="one">
+                <div class="o">
+                 <h1>04/12/2025</h1>
+                  <h2> Shoppe Cup</h2>
+                </div>
+                <div class="t">
+                  <img src="p/_logo.png" width="40px"><h1>V</h1><h2>s</h2><img src="p/johor.png" width="40px">
+                </div>
+              </div>
+              <div class="two">
+                <div class="kick"><h1>Kick-off-19:00</h1></div>
+                <div class="coming">
+                  <div class="c"><a href=""><h1>COMING SOON</h1></a></div>
+                </div>
+              </div>
+            </div>
+
+            
+
+          
+        </div>
+        <br>
+        <!-- sale -->
+         <h1><a name="b">Souvenirs</a></h1>
+          <hr>
+          <br>
+        <div class="sale">
+          <div class="group">
+            <div class="top">
+              <img src="p/av1.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Ofiicial Home Jersey 2025-26</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$22.00</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/av2.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Ofiicial Away Jersey 2025-26</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$22.00</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/home.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Ofiicial Kid Home Jersey 2025-26</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$18.00</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/away.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Ofiicial Kid Away Jersey 2025-26</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$18.00</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/bag.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>PKR Svay Rieng FC Bag</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$18.75</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/3.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>PKR Pen (standard)</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/2.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>PKR Pen (premium)</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$3.75</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/flag.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>PKR Scarf</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$3.00</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>  
+          
+        </div>
+        <br>
+        <!-- arrival -->
+        <h1><a name="c">Drink</a></h1>
+        <hr>
+        <br>
+        <div class="sale">
+          
+          <div class="group">
+            <div class="top">
+              <img src="p/krud1.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>krud energy Drink</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/krud2.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>KRUD COOL ENERGY DRINK</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/v1.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>V-active Sports Drink</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/v2.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>V-active Sports Drink</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/v3.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>V-active Sports Drink</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.5</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/fan1.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Fanta Orange</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/fan2.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Fanta Fruit Punch</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="top">
+              <img src="p/fan3.jpg" >
+            </div><br>
+            <div class="un">
+              <div class="k"><h1>Fanta Grape</h1></div>
+              <div class="shop">
+                <div class="much"><h1>$1.50</h1></div>
+                <div class="much"><a href=""><h1>Buy</h1></a></div>
+              </div>
+            </div>
+          </div>  
+        
+        </div>
+        <br>
+        <!-- contact -->
+          <hr>
+        <h1>Contace Us</h1>
+        <hr>
+        <div class="contace">
+          <div class="contace2">
+            <div class="photo">
+              <img src="p/ppp.jpg">
+            </div>
+            <div class="about">
+              <h1>About us</h1><hr>
+              <p>Welcome to the official app of Preah Khan Reach Svay Rieng Club.</p>
+              <br>
+              <p>Any problems with ordering can contact us and we will resolve it as quickly as possible.</p>
+            </div>
+          </div>
+          <div class="contact">
+            <h1>Contace Information</h1><hr>
+            <a href="https://www.facebook.com/na.721681?mibextid=wwXIfr&mibextid=wwXIfr"><img src="p/facebook.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href="https://www.instagram.com/firmina1818?igsh=cm94YXhybzcwdm42&utm_source=qr"><img src="p/instagram.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href="https://t.me/ratanacheang"><img src="p/telegram.png">Cheang&nbsp;&nbsp;Ratana</a><hr>
+            <a href=""><img src="p/phone.png">+855 &nbsp;&nbsp;89&nbsp;&nbsp;788&nbsp;&nbsp;984</a><hr>
+            <a href="https://maps.app.goo.gl/891KtuGSe3R7FHrh6?g_st=ipc"><img src="p/map (2).png">Khan Russey Keo, Phnom Penh</a><hr>
+            
+          </div>
+        </div>
+         
+         <br>
+         <!-- footer -->
+          
+        <div class="footer">
+          <div class="y">
+            <p> <b>About Us</b></p>
+            <h1>Quick Problem Solving</h1>
+            <h1>Fast Response</h1>
+            <h1>@OfiicialAPPofPKR</h1>
+          </div>
+          <div class="y">
+            <p><b>Products</b></p>
+            <h1>ticket</h1>
+            <h1>Souvenirs</h1>
+            <h1>Drink</h1>
+          </div>
+          <div class="y">
+            <p><b>Customer Service</b></p>
+            <h1>Contact Us</h1>
+            <h1>Shipping Information</h1>
+            <h1>Return</h1>
+          </div>
+          <div class="y">
+            <p><b>Follow Us</b></p>
+            <h1>Facebook:  Cheang Ratana</h1>
+            <h1>Email:  pkr008@gmail.com</h1>
+            <h1>Telegram: 089788984</h1>
+          </div>
+
+          <div class="a2"> <hr><h1>© PKr2025.All Rights reserved</h1></div>
+
+        </div>
+        
+          
+        
+       
+        
+
+
+
+</div>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

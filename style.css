@@ -1,0 +1,1208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font */
+
+@font-face {
+    font-family: "h1" ;
+    src: url(Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: "h2" ;
+    src: url(TradeWinds-Regular.ttf);
+}
+@font-face {
+    font-family: "h3" ;
+    src: url(Moulpali-Regular.ttf);
+}
+@font-face {
+    font-family: "h4" ;
+    src: url(StoryScript-Regular.ttf);
+}
+@font-face {
+        font-family: "h5";
+        src: url(BBHSansBogle-Regular.ttf);
+    }
+
+
+.pro a{
+    text-decoration: none;
+}
+.full{
+    width: 100%;
+    height: auto;
+    background: none;
+    margin: auto;
+    /* padding: 5px; */
+    /* border: solid 1px  rgb(11, 11, 11); */
+    justify-content: space-between;
+    display: block;
+    background: rgb(218, 228, 230);
+    /* background: linear-gradient(135deg, #fdfdff, #111111); */
+}
+/* .menu */
+
+.menu{
+   
+    top: 0;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: rgb(218, 228, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* background: yellow; */
+    gap: 10px;
+   
+    
+}
+.logo img{
+    height: 70px;
+    width: 60px;
+    padding: 8px;
+    margin-left: 5%;
+}
+.logo h1{
+    margin-top:1% ;
+    font-family: "h2";
+    color: blue;
+    font-size: 35px;
+}
+.navbar{
+    /* background: rgb(203, 34, 34); */
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 5%;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 7px;
+    align-items: center;
+    justify-content: center;
+    font-family: "h5";
+    font-size: 30px;
+    color: blue;
+    /* border: solid 0.1px  rgb(136, 130, 130); */
+}
+.navbar img{
+    width: 50px;
+}
+.navbar a:hover{
+    background: rgb(203, 156, 156);
+    transition: 0.3s;
+}
+
+
+.navbar button{
+    width: 200px;
+    height: auto;
+    background:none;
+    border: solid 2px black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 8%;
+}
+.navbar button img{
+    width: 20px;
+}
+.navbar button:hover{
+    transition: 0.3s;
+    background: rgb(203, 156, 156);
+}
+
+.com{ 
+    background: rgb(246, 243, 243);
+    position: absolute;
+    display: none;
+    width: 80px;
+    margin-top: -0.5%;
+}
+.com ul{
+    flex-direction: column;
+    width: 100%; 
+    gap: 0;
+    margin-left: -27%;
+}
+.com a{
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    margin-left: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li:hover .com{
+    display: block;
+}
+
+
+/* match */
+
+.na{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap ;
+}
+.match{
+    width: 23%;
+    height: 150px;
+    border-radius: 10%;
+    /* border: 2px solid rgb(9, 9, 10); */
+    background: rgb(218, 205, 205);
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgb(14, 14, 14); 
+}
+
+.one{
+    width: 49.85%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+.o{
+    width: 100%;
+    height: 30%;
+    border-radius: 10%;
+    padding: 5%;
+    
+}
+.o h1{
+    font-size: 15px;
+}
+.o h2{
+    font-size: 13px;
+}
+.t{
+   width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.two{
+    border-radius: 10%;
+    width: 49.85%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+
+   
+}
+.kick{
+     width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 10%;
+    margin-left: 15%;
+    
+}
+.kick h1{
+    width: 100%;
+    font-size: 25px;
+}
+.coming{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+    
+
+.c{  
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 10%;
+}
+.c a{
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 1px black;
+    
+}
+.c h1 {
+    color: black;
+}
+.e{  
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 10%;
+}
+.e h2 s{
+    font-size: 15px;
+    color: red;
+}
+.e a{
+    /* background: blue; */
+    border: solid 1px blue;
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.e a h2{
+    font-size: 20px;
+    margin-top: 10px;
+    color: blue;
+}
+.c a:hover{
+    background: rgb(46, 0, 253);
+    transition: 0.2s;
+}
+.much a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    justify-content: center;  
+    width: 60px;
+    display: flex;
+}
+.e a:hover{
+    background: rgb(12, 2, 55);
+    transition: 0.2s;
+}
+.c a h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* sale */
+
+.sale{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 8%;
+}
+.group{
+    
+    width: 20%;
+    height: 500px;
+    border: 1 px solid black;
+    background:rgb(204, 204, 213);
+    border-radius: 3%;
+    box-shadow: 1px 1px 10px rgb(14, 14, 14);
+}
+.top{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+.un{
+    width: 100%;
+    height: 50%;
+}
+.k{
+    display: flex;
+    justify-content: center;
+}
+.un h1{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+}
+.shop{
+    display: flex;
+   
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10%;
+    /* background: red; */
+}
+.much{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.much h1{
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+.much a:hover{
+    background: rgb(23, 3, 115);
+    transition: 0.2s;
+}
+.much a{
+    border-radius: 5%;
+    border: solid 1px blue;
+    color: azure;
+    
+}
+.much a h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+    
+    h1{
+        font-family: "h5";
+        color: rgb(233, 233, 244);
+        font-size: 40px;
+    }
+    .t h1{
+        font-family: "h1";
+        color: rgb(3, 3, 248);
+        font-size: 40px;
+    }
+    .t h2{
+        font-family: "h1";
+        color: rgb(255, 21, 0);
+        font-size: 40px;
+    }
+    .coming h2{
+        font-family: "h5";
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    
+.o h3{
+    font-family: "h5";
+    font-size: 13px;
+}
+.kick h5{
+    font-family: "h5";
+    font-size: 25px;
+    color: red;
+}
+
+/* contece */
+.box-contece{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.five {
+  margin: 0;
+  /* background-color: red; */
+  /* background: linear-gradient(135deg, #a9a8aa, #ffffff); */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 5px 8px rgb(87, 86, 86);
+}
+
+.big {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* background: rgba(208, 40, 40, 0.05); */
+  border-radius: 15px;
+  overflow: hidden;
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+.text-section {
+  width: 20%;
+  min-width: 280px;
+  
+}
+
+.text-section h1 {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  margin: 20px 0;
+  color: blue;
+}
+
+button {
+  background-color: #409eff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.image-section {
+  width: 70%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  min-width: 280px;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.text-section button{
+    background: none;
+    border-radius: 5px;
+    border: solid 1.5px blue;
+    font-family: "h5";
+    color: blue;
+}
+.text-section button:hover{
+    background: rgb(41, 1, 241);
+    transition: 0.3s;
+}
+
+/* footer */
+ .footer{
+    width: 100%;
+    height: auto;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 5px 12px 20px black; */
+    flex-wrap: wrap;
+    margin-top: 25%;
+}
+.y{
+    width: 23%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    /* gap: 20px; */
+    /* background: red; */
+    flex-wrap: wrap;
+    
+}
+.y p{
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    margin-left: 10%;
+    color: rgb(255, 218, 8);
+    font-family: "h5";
+}
+
+.y h1{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 10%;
+    font-family: "h4";
+    color: white;
+}
+.a2{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    justify-content: center;
+}
+.a2 h1{
+    font-size: 15px;
+    font-family: "h4";
+    margin-left: 45%;
+    color: white;
+}
+hr{
+    width: 100%;
+    height: 2px;
+}
+.pro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+     gap: 10%;
+    
+
+}
+.pro button{
+    background: none;
+    border-radius: 5px;
+    border: solid 1.5px blue;
+    font-family: "h5";
+    color: blue;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro button:hover{
+    background: rgb(23, 3, 115);
+    transition: 0.2s;
+}
+.contace{
+    width: 100%;
+    height: auto;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contace2{
+    width:800px;
+    height: auto;
+    box-shadow: 0px 0px 15px rgb(122, 116, 116);
+    border-radius: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    margin-left: 3%;
+    padding: 3%;
+    width: 50%;
+    height: auto;
+    /* background: rgb(58, 59, 68); */
+    display: flex;
+    
+}
+.photo img{
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+.about{
+    margin-left: 1%;      
+   padding: 3%;
+    width: 50%;
+    height: auto;
+}
+.about h1{
+    font-size: 30px;
+}
+.about p{
+    font-size: 30px;
+    font-family: "h4";
+}
+.contact{
+ 
+    width:800px;
+    height: auto;
+    box-shadow: 0px 0px 15px rgb(122, 116, 116);
+    border-radius: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: -2%; */
+}
+.contact img{
+    width: 35px;
+    height: 35px;
+}
+.contact a{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+     text-decoration: none;
+     font-family: "h4";
+     font-size: 30px;
+     gap: 15%;
+     color: black;
+
+
+}
+.contact a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+.contact h1{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+}
+.contact h10{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+}
+.contact hr{
+    margin-top: -2.55%;
+    margin-left: 5%;
+}
+/* .contact a hr{
+    margin-top: 0%;
+    margin-left: 0%;
+} */
+
+ /* translate */
+
+ @font-face {
+    font-family: "h7" ;
+    src: url(Moulpali-Regular.ttf);
+ }
+ @font-face {
+    font-family: "h6";
+    src: url(KdamThmorPro-Regular.ttf);
+ }
+ .navbar img{
+    width: 40px;    
+ }
+ .navbar a h1{
+    font-family: "h6";
+    font-size: 25px;
+ }
+ h10{
+    font-family: "h6";
+    font-size: 40px;
+ }
+ .text-section H11{
+    width: 100%;
+    font-family: "h6";
+    font-size: 30px;
+    color: blue;
+ }
+ .text-section H10{
+    font-family: "h6";
+    font-size: 20px;
+    color: blue;
+ }
+ .pro h10{
+    font-family: "h6";
+    font-size: 28px;
+    color: blue;
+ }
+ .o h10{
+    font-family: "h6";
+    font-size: 15px;
+    color: blue; 
+ }
+ .t h10{
+    font-family: "h7";
+    font-size: 15px;
+    color: blue;
+ }
+ .t h11{
+    font-family: "h7";
+    font-size: 15px;
+    color: red;
+ }
+ .two h10{
+    font-family: "h6";
+    font-size: 20px;
+    margin-left: -28%;
+    /* color: red; */
+ }
+.e h10{
+    font-family: "h6";
+    font-size: 20px;
+    margin-left: 5%;
+    color: blue;
+ }
+ .c h10{
+    font-family: "h6";
+    font-size: 20px;
+    margin-left: 2%;
+    color: rgb(0, 0, 0);
+ }
+ .k h10{
+    font-family: "h6";
+    font-size: 20px;
+    margin-left: 2%;
+    color: rgb(0, 0, 0);
+ }
+ .much h10{
+    font-family: "h6";
+    font-size: 20px;
+    margin-left: 2%;
+    color: blue;
+ }
+ .about p1{
+    font-family: "h6";
+    font-size: 25px;
+    margin-left: 5%;
+    text-align: justify;
+    /* color: blue; */
+ }
+ .about h10{
+    font-family: "h6";
+    font-size: 25px;
+    margin-left: 5%;
+    text-align: justify;
+    /* color: blue; */
+ }
+ .contact h10{
+    font-family: "h6";
+    font-size: 25px;
+    margin-left: 5%;
+    text-align: justify;
+    /* color: blue; */
+ }
+  .contact a1{
+    font-family: "h6";
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+    text-decoration: none;
+    
+     font-size: 30px;
+     gap: 15%;
+     color: black;
+  }
+  .y p1{
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    margin-left: 10%;
+    color: rgb(255, 218, 8);
+    font-family: "h6";
+}
+
+.y h10{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 10%;
+    font-family: "h6";
+    color: white;
+}
+.a2 h10{
+    font-size: 15px;
+    font-family: "h6";
+    margin-left: 33%;
+    color: white;
+
+}
+.a2{
+    width: 100%;
+    height: auto;
+    
+}
+.much button{
+    background: none;
+    border: solid 1px rgb(0, 0, 255);
+    border-radius: 8%;
+}
+.much button:hover{
+        transition: 0.3s;
+        background: rgb(0, 0, 12);
+   }
+
+
+
+
+
+
+
+/* inspet */
+@media (min-width: 481px) and (max-width: 1280px){
+    
+    .a2 h10{
+        font-size: 20px;
+        margin-left: -1px;
+        
+    }.much button{
+        width: 90px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pro h10{
+        font-size: 18Px;
+    }
+    .k h10{
+        font-size: 18Px;
+    }
+    .sale{
+        margin-left: 2.5%;
+    }
+    .image-section{
+        width: 100%;
+        height: auto;
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width:75%;
+        height: auto;
+    }
+    .navbar img{
+        width: 30px;
+        margin-top: -100%;
+        height: 30px;
+    }
+    .navbar a h1 {
+        font-size: 20px;
+    }
+    .logo{
+        width: 20%;
+        height: auto;
+    }
+    .match{
+        width: 45%;
+        height: auto;
+    }
+    .group{
+        width: 30%;
+        height: auto;
+    }
+    .k h1{
+        font-size: 18px;
+    }
+     button{
+        font-size: 30px;
+        padding: 15px 20px;
+
+    }
+    .y{
+        width: 45%;
+        height: auto;
+    }
+    .pro button{
+        width: 150px;
+        height: 50px;
+        font-size: 22px;
+    }
+    
+    .contace2{
+        width: 95%;
+        height: auto;
+    }
+    .contact{
+        width: 95%;
+        height: 500px;
+        margin-top: 10%;
+    }
+
+}
+ @media (max-width:480px) {
+     .t h10 {
+        font-size: 10px;
+    }
+    h10{
+        font-size: 20px;
+    }
+    .navbar a h1{
+        font-size: 13px;
+    }
+    .navbar img{
+        margin-top: -10%;
+    }
+    .navbar h10{
+    font-size: 10px;
+   }
+   .text-section h11{
+        font-size: 18px;
+        margin-left: -13%;
+   }
+   .text-section h1{
+        font-size: 18px;
+        margin-left: -13%;
+   }
+   .text-section p{
+        font-size: 18px;
+        margin-left: -13%;
+        /* margin-top: -10%; */
+   }
+   .text-section h10{
+        font-size: 15px;
+        /* margin-left: -%; */
+   }
+   .text-section button{
+        margin-left: -10%;
+   }
+   .pro h10{
+        font-size: 13px;
+   }
+   .c h10{
+        font-size: 13px;
+   }
+   .e h10{
+        font-size: 13px;
+   }
+   .k h10{
+        font-size: 13px;
+   }
+   .much h10{
+       font-size: 13px; 
+   }
+   .much button{
+        background: none;
+        border: solid 1px rgb(0, 0, 255);
+        border-radius: 8%;
+        width: 70px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+   }
+    .menu{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+        background: blue;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        margin-left: -2%;
+    }
+    .logo h1{
+        display: none;
+    } 
+    .navbar{
+        width: 100%;
+        height: 40px;
+        /* background: green; */
+        /* margin-left: -15%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a img {
+            width: 20px;
+    }
+    .com a h1{
+        font-size: 15px;
+        color: blue;
+    }
+    .navbar ul{
+        margin-top: -1.5%;
+        margin-left: -3%;
+    }
+    .navbar li a{
+        font-size: 15px;   
+    }
+    .sale{
+        margin-left: 1.5%;
+    }
+    .image-section{
+        width: 100%;
+        height:auto;
+    }
+    .slider img{
+        width: 100%;
+        height: 200px;
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+    }
+    .match{
+        width: 85%;
+        height: 140px;
+    }
+    .o h1{
+        font-size: 12px;
+    }
+    .o h2{
+        font-size: 12px;
+    }
+
+    .one{
+        padding: 5px;
+    }
+    .e a h2{
+        font-size: 20px;
+    }
+
+    .c a h1{
+        font-size: 20px;
+    }
+    .e a{
+        width: 100px;
+        height: 35px;
+    }
+    .c a{
+        width: 100px;
+        height: 35px;
+    }
+    .kick h1{
+        font-size: 20px;
+    }
+    .group{
+        width: 46%;
+        height: auto;
+    }
+    .k h1{
+        font-size: 13px;
+    }
+    .much h1{
+        font-size: 17px;
+    } 
+    .much a{
+        width: 40px;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 1.5px blue;
+    }
+    .much a h1{
+        font-size: 17px;
+
+    }
+    .text-section {
+         width: 35%;
+         min-width: 280px;
+         
+  
+    }
+    .five{
+        box-shadow: none;
+    }
+    .text-section h1 {
+        font-size: 1.5rem;
+        color: blue;
+    }
+    .text-section p {
+        font-size: 1rem;
+        color: blue;
+    }
+    .big{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        font-size: 1rem;
+        padding: 5px 10px;
+
+    }
+    h1{
+        font-size: 5px;
+    }
+    .much{
+        margin-bottom: 40px;
+    }
+    .y{
+        width: 100%;
+        height: auto;
+    }
+    .pro button{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .a2 h1{
+    margin-left: 30%;
+    }
+    .contace2{
+        width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .photo img{
+        width: 200px;
+        height: auto;
+        margin-left: 40%;
+    }
+    .about{
+        width: 100%;
+        height: auto;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+     .about h10{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 20px;
+    }
+    .about p1{
+        font-size: 20px;
+    }
+    .contact{
+        width: 95%;
+        height: 400px;
+        margin-top: 10%;
+    }
+    .contact a{
+        font-size: 20px;
+    }
+    .contact h1{
+        font-size: 20px;
+        font-family: "h6";
+        margin-left: -3.5%;
+    }
+    .contact img{
+        width: 28px;
+        height: 28px;
+    }
+    .a2 h10{
+        font-size: 10px;
+        margin-left: -1px;
+        
+    }
+    
+
+ }
+
+
+ 
